@@ -1,0 +1,44 @@
+#header { margin-bottom: 30px; }		
+
+fieldset { margin-bottom: 30px; }
+
+#faq {  border: 2px purple solid; 
+        padding: 20px;
+	padding-left: 50px; 
+	padding-top: 30px;  
+	height: 880px; }
+
+#questions { width: 600px; }
+
+.card { width: 400px; 
+	position: absolute; }
+
+#card2, #card4, #card6 { margin-left: 450px; }
+
+#card3 { margin-top: 260px; }
+
+#card4 { margin-top: 270px; }
+
+#card5 { margin-top: 600px; }
+
+#card6 { margin-top: 500px; }
+
+.card p, .card h4 { margin: 20px; }
+
+.card p { text-align: justify; }
+
+#back_to_top {  position: absolute; 
+	        margin-top: 840px; }
+
+textarea { width: 400px; }
+
+#reviewer { height: 20px; 
+	    margin-bottom: 7px; }
+
+#question { height: 100px; 
+	    display: block; 
+	    margin-bottom: 5px; }
+
+button { padding: 7px;
+    	  border-radius: 5px; 
+	  border: 0px; }

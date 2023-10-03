@@ -1,0 +1,17 @@
+#header, #navbar { clear: both; }
+
+#header { padding: 1px; 
+	  margin-bottom: 30px; }
+
+.content { width: 450px; 
+	   padding: 5px;
+	   padding-left: 20px;  
+	   float: left;
+	   margin-bottom: 30px; }
+
+.content li { text-align: left; }
+
+#plan { margin-right: 45px; }
+
+#medialink { border: 0px; 
+	     padding: 0px; }

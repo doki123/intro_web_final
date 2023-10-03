@@ -1,0 +1,17 @@
+#header { margin-bottom: 30px; }
+
+#container { height: 730px; }
+
+.card { width: 450px; 
+	position: absolute; }
+
+.card_content { margin-left: 30px;
+		margin-right: 30px;
+		text-align: justify; }
+
+#card1, #card2 { height: 220px; }
+
+#card2, #card4 { margin-left: 500px; }
+
+#card3, #card4 { margin-top: 260px; 
+		 height: 440px; }

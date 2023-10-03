@@ -1,0 +1,37 @@
+#header, .content { margin-bottom: 30px; }
+
+.content { float: left; }
+
+#select { border: 2px purple solid; 
+	  margin-right: 30px;
+	  width: 300px; }
+
+#select form { margin-left: 20px; }
+
+select { width: 200px; 
+	 display: block; }
+
+option { padding: 2px;
+	 border-bottom: 1px gray solid; }
+
+.flights { width: 270px; 
+	   height: 170px; 
+	   margin-top: 20px; 
+	   margin-right: 40px; }
+
+.flights p, .flights .button { margin-left: 5px;
+	     margin-right: 5px; }
+
+.flights p { margin-bottom: 22px; }
+
+.submit { padding: 7px;
+    	  border-radius: 5px; 
+	  border: 0px; 
+	  margin-top: 15px; 
+	  margin-bottom: 10px; }
+
+.flights b {  text-transform: uppercase; 
+     	      font-family: sans-serif, georgia, serif;
+              letter-spacing: 0.05em;
+              text-shadow: 0px 0px black;
+     	      text-shadow: 1px 1px 0px rgba(0, 0, 128, 0.5); }

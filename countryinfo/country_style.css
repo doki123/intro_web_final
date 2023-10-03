@@ -1,0 +1,23 @@
+#header, .content { margin-bottom: 30px; }
+
+.content { width: 450px;
+	   height: 350px; 
+	   padding-top: 5px;
+	   padding-left: 15px; 
+	   float: left; }
+
+#locals { margin-left: 60px; }
+
+#physical { margin-left: 20px; }
+
+#cuisine { margin-left: 20px; }
+
+#experience { margin-left: 270px; 
+	      height: 300px; }
+
+.content h4 { text-align: center; }
+
+.content p { margin-right: 10px; 
+	     text-align: justify; 
+             line-height: 1.5em; }
+

@@ -1,0 +1,67 @@
+#header { margin-bottom: 30px; }
+
+#hotel_selected, #other, #comments { border: 2px purple solid; 
+				     float: left; }
+
+#other { margin-top: 20px;
+	 margin-right: 20px;
+	 margin-bottom: 30px;  
+	 width: 350px; 
+	 height: 270px; 
+	 padding: 15px; }
+
+#comments { width: 550px;
+	    height: 270px;  
+	    float: left; 
+	    margin-top: 20px; 
+	    padding: 15px; 
+	    padding-left: 20px; }
+
+#leave_comment { width: 550px; }
+
+#comment_3 { margin-right: 20px; }
+
+img { float: left; }
+
+.subsection { padding: 5px; 
+	      width: 150px; 
+	      float: left; 
+	      text-align: center; 
+	      margin-left: 15px; 
+	      margin-bottom: 15px; }
+
+.subsection h4 { margin: 0px;
+		 margin-top: 5px; 
+		 margin-bottom: 15px;
+		 padding-right: 5px; }
+
+#overall { margin-left: 100px; }
+
+.rating { text-align: right; }
+
+.rating b { font-size: 16.5px; }
+
+table { border-collapse: collapse; }
+
+tr, td, th { border: 1px black solid; 
+	     padding: 10px; }
+
+th { text-align: left; 
+     text-transform: uppercase; 
+     font-family: sans-serif, georgia, serif; }
+
+.comment { width: 250px; 
+	   float: left; 
+	   margin-bottom: 10px; }
+
+.comment p { margin: 10px; }
+
+#comment_2 { margin-left: 20px; }
+
+textarea { height: 50px; 
+	   width: 200px; }
+
+button { padding: 7px;
+    	 border-radius: 5px; 
+	 border: 0px; 
+	 display: block; }

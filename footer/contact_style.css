@@ -1,0 +1,22 @@
+#header { margin-bottom: 30px; }	
+
+.diff_listyle b { font-family: sans-serif, georgia, serif; 
+		  font-size: 13.5px; }
+
+.content { width: 450px; 
+	   float: left;
+	   margin-bottom: 30px; 
+	   padding: 5px; 
+	   padding-left: 10px;
+	   height: 400px; }
+
+#contact_us { margin-right: 65px; }
+
+textarea { width: 400px; 
+	   height: 240px; 
+	   display: block; 
+	   margin-bottom: 8px; }
+
+.button { padding: 7px;
+    	  border-radius: 5px; 
+	  border: 0px; }

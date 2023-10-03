@@ -1,0 +1,20 @@
+#header { margin-bottom: 30px; }
+
+.content { padding-left: 30px; 
+	   padding-top: 20px; }
+
+#tour, #other { border: 2px navy solid; 
+		width: 700px; 
+		margin-bottom: 30px; }
+
+#other { margin-left: 150px; }
+
+#tour { margin-left: 50px; }
+
+table { border-collapse: collapse; }
+
+tr, td, th { border: 1px black solid; 
+	     padding: 10px; }
+
+th { width: 200px;  
+     border: 2px black solid; }

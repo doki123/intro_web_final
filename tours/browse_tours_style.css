@@ -1,0 +1,24 @@
+#header { margin-bottom: 30px; }
+
+fieldset { width: 950px;
+	   margin-bottom: 20px; 
+	   padding-left: 50px; }
+
+.field { border: 2px purple solid; }
+
+.tours { width: 250px;
+	 height: 300px;
+	 float: left; 
+	 margin: 15px; 
+	 text-align: center; }
+
+img { width: 250px; 
+      height: 150px; }
+
+.tours p b { text-transform: uppercase; 
+	       font-size: 14px; }
+
+.tours p { font-family: sans-serif, georgia, serif;
+	   font-size: 14px; }
+
+#navbar { margin-top: 30px; }

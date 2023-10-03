@@ -1,0 +1,76 @@
+#header { margin-bottom: 30px; }
+
+#also_bought { margin-bottom: 30px; }
+
+#purchase { clear: both; }
+
+#product_img, #description { float: left; }
+
+#description {  width: 370px; 
+		margin-left: 10px; 
+		padding-left: 10px; }
+
+button { display: block; 
+	 margin-top: 15px; 
+	 margin-bottom: 15px; 
+	 padding: 7px;
+    	 border-radius: 5px; 
+         border: 0px; }
+
+#rating, #shipping { margin-top: 30px; }
+
+#rating { width: 520px; 
+	  height: 410px;
+	  padding: 10px; 
+	  padding-top: 0px;
+	  margin-bottom: 30px; 
+	  float: right; } 
+
+#shipping { width: 445px; 
+	    height: 250px; 
+	    float: left; 
+	    margin-bottom: 10px; } 
+
+#rating b { margin-left: 30px; }
+
+.reviewer { text-align: right; 
+	    margin-right: 10px; }
+
+.comment { width: 240px; 
+	   padding: 5px; 
+	   position: absolute; }
+
+#comment2 { margin-left: 265px; }
+
+#comment3 { margin-top: 160px; 
+	    margin-left: 125px; }
+
+#shipping p, #shipping h4, #shipping table { margin-left: 10px; }
+
+#also_bought {  border: 0px;  }
+
+#bought2 { margin-left: 30px; }
+
+.bought { width: 200px; 
+	  float: left; 
+	  margin-bottom: 30px; 
+	  padding-top: 0px; }
+
+.bought img { float: left;
+	      margin-bottom: 5px; }
+
+.img_link { padding: 0px; 
+	    border: 0px; }
+
+.bought h4, .bought p { margin-left: 5px; }
+
+.image_direction { color: grey; }
+
+table {	 border-collapse: collapse; }
+
+#first_row th { font-size: 16.7px; }
+
+td, th { padding: 5px;
+	 border: 1px black solid; }
+
+th { width: 120px; }

@@ -1,0 +1,30 @@
+#header, #submit_tours, #view_tours, #footer, #navbar { border: 1px navy solid; 
+							border-radius: 3px; }
+
+#header { text-align: center;
+	  clear: both;
+	  text-transform: uppercase; }
+
+#submit_tours, #view_tours { width: 400px;
+			    height: 400px; 
+			    float: left; 
+			    text-align: center; 
+			    padding-bottom: 20px;
+			    margin-bottom: 50px;
+			    margin-top: 50px; }
+
+#submit_tours { margin-left: 50px;
+		margin-right: 100px; }
+
+p { padding: 10px; }
+
+img { width: 400px; 
+      height: 200px; }
+
+#navbar { margin-bottom: 20px;
+	  padding: 0px; }
+
+
+
+
+

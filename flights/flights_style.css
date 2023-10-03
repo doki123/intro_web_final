@@ -1,0 +1,12 @@
+#header { margin-bottom: 30px; }
+
+.content { width: 450px;
+	   height: 500px;
+	   float: left;
+	   text-align: center; 
+	   margin-bottom: 30px; }
+
+.content p { margin-right: 5px; 
+	     margin-left: 5px; }
+
+#flights { margin-right: 90px; }

@@ -1,0 +1,49 @@
+body { width: 1000px;
+       top: 50px;
+       margin: 0px auto;
+       position: relative; }
+
+#header { text-align: center; 
+          font-family: sans-serif, georgia, serif;
+	  font-weight: bold; 
+	  color: white; 
+	  text-shadow: 1px 1px 0px #ffe44d; }
+
+#header p { font-size: 18px; }
+
+#tours, #items { float: left;
+	         text-align: center; 
+	         padding-bottom: 20px; 
+		 height: 300px;
+		 width: 250px;
+  		 margin-bottom: 80px;
+		 margin-top: 60px; }
+
+#middle { width: 490px;
+          float: left;
+	  text-align: center; 
+	  padding-bottom: 20px; 
+	  margin-bottom: 80px;
+	  margin-top: 60px; }
+
+#flights, #info { height: 150px;
+		  margin-left: 50px;
+	  	  margin-right: 50px;
+		  padding-bottom: 5px; }
+
+#flights { margin-bottom: 10px; }
+
+.content p { padding: 5px; }
+
+img { width: 250px;
+      height: 150px;  }
+
+#middle img { width: 150px; 
+	      height: 155px; }
+
+#flights img { float: left; 
+	       padding-right: 5px; }
+
+#info img { float: right;
+	    padding:left: 5px; }
+

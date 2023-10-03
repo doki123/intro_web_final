@@ -1,0 +1,44 @@
+#header, .content { margin-bottom: 30px; }
+
+.content { float: left; }
+
+#select { border: 2px purple solid; 
+	  margin-right: 50px;
+	  width: 300px; 
+	  height: 390px; }
+
+#select form { margin-left: 20px; }
+
+select { margin-right: 10px; }
+
+#location { width: 200px; 
+	    display: block; }
+
+#price, #rating { width: 90px; }
+
+#rating { float: left; }
+
+option { padding: 2px;
+	 border-bottom: 1px gray solid; }
+
+.hotels { margin-top: 20px; 
+	  height: 390px; 
+	  margin-right: 70px; }
+
+.no_rightmargin { margin-right: 0px; }
+
+.hotels p, .hotels a { margin-left: 15px; }
+
+.hotels p { margin-top: 20px; }
+
+.submit { padding: 7px;
+    	  border-radius: 5px; 
+	  border: 0px; 
+	  margin-top: 15px; 
+	  margin-bottom: 10px; }
+
+.hotels b { text-transform: uppercase; 
+     	    font-family: sans-serif, georgia, serif;
+            letter-spacing: 0.05em;
+            text-shadow: 0px 0px black;
+            text-shadow: 1px 1px 0px rgba(0, 0, 128, 0.5); }

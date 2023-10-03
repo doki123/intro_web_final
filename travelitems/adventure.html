@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Adventure Gear</title>
+		<link rel="stylesheet" type="text/css" href="../general_style.css" />
+		<link rel="stylesheet" type="text/css" href="spec_item_style.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h1>adventure gear
+			<a href="travelitems.html" class="button">Go Back</a></h1>
+		</div>
+		<fieldset class="content" id="info">
+			<legend>Select gear details</legend>
+			<div class="content_content">
+			<form action="adventure.html" method="get">
+				<h4>Type of gear</h4>
+				<select required id="item_type" size="4" name="gear">
+					<option value="all">All</option>
+					<option value="camping">Camping</option>
+					<option value="climbing">Climing</option>
+					<option value="diving">Diving</option>
+					<option value="hiking">Hiking</option>
+					<option value="hunting">Hunting</option>
+					<option value="other">Other</option>
+				</select>
+				<h4>Price and rating</h4>
+				<select required id="price" size="4" name="price">
+					<option value="all">All</option>
+					<option value="50$">>$50</option>
+					<option value="100">$50-200</option>
+					<option value="200">$200+</option>
+				</select>
+				<select required id="rating" size="4" name="rating">
+					<option value="all">All</option>
+					<option value="1-3">1-3</option>
+					<option value="3-4">3-4</option>
+					<option value="5">5</option>
+				</select>
+				<button class="button" type="submit">Submit</button>
+			</form>
+			</div>
+		</fieldset>
+		<div class="content cards">
+			<img class="thumbnail" src="../static/gun_300x200.jpg" alt="Picture of a hunting gun" />
+			<div class="content_content">
+			<h4>hunting gun</h4>
+			<p><b class="mock_h4">desc:</b> Proin ipsum eros, vestibulum et</p>
+			<p><b class="mock_h4">price:</b> $300</p>
+			<p><b class="mock_h4">rating:</b>
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" /> / 5 <b class="img_fallback">(5/5)</b></p>
+			<a href="selected_gear.html" class="button">View</a>
+			</div>
+		</div>
+		<div class="content cards no_right">
+			<img class="thumbnail" src="../static/scuba_300x200.jpg" alt="Picture of a scuba mask in the sand" />
+			<div class="content_content">
+			<h4>scuba mask</h4>
+			<p><b class="mock_h4">desc:</b> Donec sit amet risus risus</p>
+			<p><b class="mock_h4">price:</b> $50</p>
+			<p><b class="mock_h4">rating:</b>
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" /> / 5 <b class="img_fallback">(4/5)</b></p>
+			<a href="selected_gear.html" class="button">View</a>
+			</div>
+		</div>
+		<div class="content cards">
+			<img class="thumbnail" src="../static/harness_300x200.jpg" alt="Picture of a lower half of a person wearing a harness" />
+			<div class="content_content">
+			<h4>rock climbing harness</h4>
+			<p><b class="mock_h4">desc:</b> Lorem ipsum dolor sit amet</p>
+			<p><b class="mock_h4">price:</b> $100</p>
+			<p><b class="mock_h4">rating:</b>
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" /> / 5 <b class="img_fallback">(3/5)</b></p>
+			<a href="selected_gear.html" class="button">View</a>
+			</div>
+		</div>
+		<div class="content cards">
+			<img class="thumbnail" src="../static/torch_300x200.jpg" alt="close up picture of a flashlight" />
+			<div class="content_content">
+			<h4>heavy duty torch</h4>
+			<p><b class="mock_h4">desc:</b> Integer molestie id nibh</p>
+			<p><b class="mock_h4">price:</b> $70</p>
+			<p><b class="mock_h4">rating:</b>
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" /> / 5 <b class="img_fallback">(4/5)</b></p>
+			<a href="selected_gear.html" class="button">View</a>
+			</div>
+		</div>
+		<div class="content cards no_right">
+			<img class="thumbnail" src="../static/tent_300x200.jpg" alt="picture of a lit up tent at night with two women on a bench near" />
+			<div class="content_content">
+			<h4>tent</h4>
+			<p><b class="mock_h4">desc:</b> Cras tincidunt tempus massa</p>
+			<p><b class="mock_h4">price:</b> $300</p>
+			<p><b class="mock_h4">rating:</b>
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" />
+			<img src="../static/crown_25x15.png" /> / 5 <b class="img_fallback">(5/5)</b></p>
+			<a href="selected_gear.html" class="button">View</a>
+			</div>
+		</div>
+		<div id="navbar">
+			<li class="five_navbar"><a href="../index.html">Home</a></li>
+			<li class="five_navbar"><a href="../tours/tours.html">Tours</a></li>
+			<li class="five_navbar"><a href="../countryinfo/countryinfo.html">Country Info</a></li>
+			<li class="five_navbar"><a href="../travelitems/travelitems.html">Travel Items</a></li>
+			<li class="five_navbar"><a href="../flights/flights.html">Flights and Hotels</a></li>
+		</div>
+	</body>
+</html>
